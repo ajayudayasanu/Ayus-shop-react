@@ -26,13 +26,17 @@ h2 {
 .carousel-item.active {
   display: flex;
 }
-.carousel-caption {
+/* .carousel-caption {
   position: absolute;
   top: 0;
-}
+} */
 
-.carousel-caption h2 {
+.carousel-caption h4 {
+  color: #333;
+}
+.carousel-caption p {
   color: #fff;
+  font-size: 1.25rem;
 }
 
 .carousel img {
@@ -47,7 +51,23 @@ h2 {
   margin: 0 auto;
 }
 @media (max-width: 900px) {
-  .carousel-caption h2 {
+  .carousel-caption h4 {
     font-size: 2.5vw;
   }
+}
+
+.header-custom{
+  padding: 0.2rem;
+  border-top-color:#13bfb3!important ;
+  border-top-width: 10px;
+  border-top-style: solid;
+}
+
+.search-btn{
+  border-color: #13bfb3;
+}
+
+.carousel img{
+border-radius: 0;
+height: auto;
 }

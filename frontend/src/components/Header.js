@@ -18,10 +18,18 @@ const Header = () => {
 
   return (
     <header>
-      <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
+      <Navbar bg='light' variant='light' expand='lg' collapseOnSelect className='header-custom'>
         <Container>
           <LinkContainer to='/'>
-            <Navbar.Brand>Ayus</Navbar.Brand>
+            <Navbar.Brand>
+            <img
+            alt="ayus logo"
+            src="/images/logo.png"
+            width="80"
+            height="60"
+            className="d-inline-block align-top"
+        /> 
+            </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
