@@ -23,6 +23,7 @@ const App = () => {
   return (
     <Router>
       <Header />
+      <Route path='/' component={HomeScreen} exact />
       <main className='py-3'>
         <Container>
           <Route path='/order/:id' component={OrderScreen} />
@@ -55,7 +56,7 @@ const App = () => {
             component={HomeScreen}
             exact
           />
-          <Route path='/' component={HomeScreen} exact />
+
         </Container>
       </main>
       <Footer />

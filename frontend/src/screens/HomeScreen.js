@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import { Container } from 'react-bootstrap'
 import { useDispatch, useSelector } from 'react-redux'
 import { Row, Col } from 'react-bootstrap'
 import Product from '../components/Product'
@@ -34,6 +35,7 @@ const HomeScreen = ({ match }) => {
           Go Back
         </Link>
       )}
+      <Container>
       <h1>Latest Products</h1>
       {loading ? (
         <Loader />
@@ -55,6 +57,7 @@ const HomeScreen = ({ match }) => {
           />
         </>
       )}
+      </Container>
     </>
   )
 }

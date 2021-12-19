@@ -25,7 +25,7 @@ const Header = () => {
             <img
             alt="ayus logo"
             src="/images/logo.png"
-            width="80"
+            width="120"
             height="60"
             className="d-inline-block align-top"
         /> 

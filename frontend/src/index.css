@@ -26,26 +26,22 @@ h2 {
 .carousel-item.active {
   display: flex;
 }
-/* .carousel-caption {
-  position: absolute;
-  top: 0;
-} */
 
 .carousel-caption h4 {
-  color: #333;
+  color: #707070;
 }
 .carousel-caption p {
-  color: #fff;
+  color:  #707070;
   font-size: 1.25rem;
 }
 
 .carousel img {
-  height: 300px;
-  padding: 30px;
+  border-radius: 0;
   margin: 40px;
-  border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
+  padding: 0;
+  margin: 0;
 }
 .carousel a {
   margin: 0 auto;
@@ -65,9 +61,4 @@ h2 {
 
 .search-btn{
   border-color: #13bfb3;
-}
-
-.carousel img{
-border-radius: 0;
-height: auto;
 }
